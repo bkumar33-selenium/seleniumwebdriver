@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Grouping">
+<test name="Test">
+<groups>
+     <run>
+       <!--    <include name="Regression"/>-->
+          <!-- <include name="Regression"/>
+            <include name="Functional"/>-->
+           <!-- <exclude name="Regression"/>-->
+            <exclude name="Functional"/>
+     </run>
+
+</groups>
+<classes>
+       <class name="session44.SignUpMeth"/>
+       <class name="session44.loginMeth"/>
+       <class name="session44.PaymentMeth"/>
+</classes>
+</test>
+</suite>
