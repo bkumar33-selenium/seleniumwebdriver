@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="session47_PageObjectClass.Sample">
+      <class name="session46_ListenerClass.TestClass">
         <methods>
           <include name="setup"/>
+          <include name="testUrl"/>
+          <include name="testclose"/>
+          <include name="testTitle"/>
         </methods>
-      </class> <!-- session47_PageObjectClass.Sample -->
+      </class> <!-- session46_ListenerClass.TestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

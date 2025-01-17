@@ -18,6 +18,13 @@ public class LocatersPart2 {
 		//driver.findElement(By.cssSelector("[placeholder='Search store'")).sendKeys("C-Tshirts"); 
 		driver.findElement(By.cssSelector("input.search-box-text[name='q']")).sendKeys("T-Shirts");
 		
+		// css - cascading style sheet
+		/* tag id  - tag#id
+		 * tag class - tag.classname
+		 * tag attribute - tag[attribute="value"]
+		 * tag class attribute - tag.classname[attribute="value"]
+		 */
+		
 
 		
 	}

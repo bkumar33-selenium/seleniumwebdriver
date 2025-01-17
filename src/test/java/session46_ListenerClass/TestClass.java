@@ -10,7 +10,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-//@Listeners
+@Listeners
 public class TestClass {
 	
 	WebDriver driver;

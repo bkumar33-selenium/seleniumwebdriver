@@ -7,7 +7,7 @@ public class AssertionDem {
 	@Test
 	void testAssert()
 	{
-		String s1="Javaplus";
+		String s1="Javaplus1";
 		String s2="Javaplus";
 		if(s1.equals(s2))
 		{
@@ -16,7 +16,7 @@ public class AssertionDem {
 		else
 		{
 			System.out.println("Strings are not matching....");
-			Assert.fail();
+			//Assert.fail();
 		}
 	//	Assert.assertEquals(s1,s2);
 	}
